@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-H8X7LHKKMF"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-H8X7LHKKMF');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="hiiscript">
+    <!--CHANGE THIS METATAGS-->
+    <meta name="keywords" content="canonical url generator, make a canonical link, canonical link tag">
+    <meta name="description" content="A canonical url is the url of a webpage that you want search engines to index 
+    as the main version of a webpage when your site contains multiple urls with the same or similar content.">
+    <title>Canonical url generator</title>
+    <link rel="stylesheet" href="/sheets/style.css">
+    <link rel="canonical" href="https://hiiscript.com/tools-and-projects/canonical-url-generator.html">
+</head>
+<body>
+
+    <header>
+
+        <div class="logo-div">
+
+            <a href="/" class="logo">Hiiscipt.com</a>
+
+        </div>
+
+        <br><nav aria-label="Main navigation">
+
+            <ul class="intro-btn-flex2">
+
+                <li class="li2"><a href="/" class="main-btn">Home</a></li>
+                <li class="li2"><a href="/html-all-elements.html" class="main-btn">Elements</a></li>
+                <li class="li2"><a href="/web-tools-and-projects.html" class="main-btn" aria-label="learn audio html element">Tools</a></li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <article>
+
+            <section>
+
+                <h1 class="heading">Canonical url generator</h1>
+
+                <p class="paragraph">You must enter the correct or preferred url of your webpage to generate 
+                    a canonical url link tag.
+                </p>
+ 
+            </section>
+
+            <br><section class="tool-div">
+
+                <p class="error" id="error"></p>
+
+                <input type="text" id="input" placeholder="https://example.com/site-page" class="tool-input">
+
+                <div class="tool-btn-flex">
+
+                    <button class="tool-btn" id="noteClick" onclick="generate()">Generate</button>
+                    <button class="tool-btn2" id="noteCopied" onclick="copy()">Copy</button>
+                    <button class="tool-btn3" onclick="clear2()">Clear</button>
+
+                </div>
+
+                <div class="output-div">
+
+                    <p class="paragraph">Canonical url:</p>
+
+                    <div id="copy" class="output-overflow">
+
+                        <span id="display"></span>
+
+                    </div> 
+
+                </div>
+
+            </section>
+
+            <section>
+
+                <h2 class="heading2">What is a canonical url link element?</h2>
+
+                <p class="paragraph">A canonical url is the url of a webpage that you want search engines to index 
+                    as the main version of a webpage when your site contains multiple urls with the same or similar content.
+                </p>
+
+                <h2 class="heading2">What does a canonical url link tag do?</h2>
+
+                <p class="paragraph">It prevents search engines to use or index any unwanted urls of a webpage, by using the canonical 
+                    link element you are communicating with search engines that which url should be treated as the main version of a 
+                    webpage. This helps search engines to index your preferred url version of a webpage rather than using multiple urls 
+                    with the similar or same content. 
+                </p>
+
+            </section>
+
+            <section>
+
+                <h2 class="heading2">Where to place a canonical link element?</h2>
+
+                <p class="paragraph">The canonical link tag should be placed inside the Html document's &lt;<span class="code-color">head</span>&gt; 
+                    section only for the corresponding webpage. This will help search engines to index and use the specified url or preferred url for that webpage rather than using 
+                    different urls. For example:
+                </p>
+
+                
+
+                    <p class="paragraph-code">Example canonical url link code</p>
+
+                    <div class="code-div">
+
+                        <code id="codeC">
+
+                            <p>&lt;<span class="code-color">head</span>&gt;</p>
+
+                            <span>&lt;<span class="code-color">title</span>&gt;</span>
+
+                            <span>Title of a webpage</span>
+
+                            <span>&lt;/<span class="code-color">title</span>&gt;</span>
+
+                            <p>&lt;<span class="code-color">link</span> <span class="code-color2">rel</span>="canonical" <span class="code-color2">href</span>="https://example.com/page"&gt;</p>
+
+                            <p>&lt;/<span class="code-color">head</span>&gt;</p>
+
+                        </code>
+
+                        <div class="code-div-btn">
+
+                            <button class="copy-btn" onclick="copyC()" id="copyC">Copy code</button>
+
+                        </div>
+
+                    </div>
+
+                
+            </section>
+
+            <section>
+
+                <h2 class="heading2">Canonical url link example</h2>
+
+                <p class="paragraph">For example, let's say that your website has a page about best cars available 
+                    at https://example.com/best-cars. Your canonical link element can be for the specified page:
+                </p>
+
+                <br><p class="paragraph">&lt;<span class="code-color">link</span> <span class="code-color2">rel</span>="canonical" <span class="code-color2">href</span>="https://example.com/best-cars"&gt;</p>
+
+                <br><p class="paragraph">You must then take this canonical url link element and put it in the &lt;<span class="code-color">head</span>&gt; section of your 
+                    html document. This canonical tag should be placed on the correct page and will represent the url you want searh engines or users to use as the main version of your 
+                    webpage. 
+                </p>
+
+            </section>
+
+            <section>
+
+                <h3 class="heading2">How to use this canonical url generator tool?</h3>
+
+                <p class="paragraph">You first enter your preferred url of your webpage into the input box above. Please make sure that you use urls that 
+                    begin with http or https only, other urls will be rejected. Then click the generate button to generate the 
+                    canonical element, the tool will check that the url is correct and will place the generated url in the white box above. You must then 
+                    take this tag and place it in the html document &lt;<span class="code-color">head</span>&gt; section of the corresponding webpage and press clear to generate another tag.
+                </p>
+
+            </section>
+
+        </article>
+
+    </main>
+
+    <footer class="footer">
+
+        <ul class="footer-ul">
+
+            <li class="li2"><a href="/privacy-policy.html" class="footer-btn">Privacy policy</a></li>
+            <li class="li2"><a href="/about-us.html" class="footer-btn">About us</a></li>
+            <li class="li2"><a href="/contact-us.html" class="footer-btn">Contact us</a></li>
+            <li class="li2"><a href="/terms-and-conditions.html" class="footer-btn">Terms and conditions</a></li>
+            <li class="li2"><a href="/support-us.html" class="footer-btn">Support us</a></li>
+            <li class="li2"><a href="/web-tools-and-projects.html" class="footer-btn">Web tools and projects</a></li>
+
+        </ul>
+
+        <p class="footer-par">A website that focuses more only on web development and makes coding fun
+            and easy to learn.
+        </p>
+
+        <p class="copyright-par">Copyright &copy; <span id="year"></span> hiiscript. All Rights Reserved. </p>
+
+    </footer>
+
+
+    
+    <script src="/sheets/canonical-url-generator.js"></script>
+</body>
+</html>
