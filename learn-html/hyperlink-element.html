@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-H8X7LHKKMF"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-H8X7LHKKMF');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="hiiscript">
+    <!--CHANGE THIS METATAGS-->
+    <meta name="keywords" content="hyperlink element, create a hyperlink, html hyperlink element,  
+    example of a hyperlink element">
+    <meta name="description" content="A hyperlink is an element that is used to navigate 
+    users to another web page, html document or another website.">
+    <title>How to create a hyperlink element for your webpage?</title>
+    <link rel="stylesheet" href="/sheets/style.css">
+    <link rel="canonical" href="https://hiiscript.com/learn-html/hyperlink-element.html">
+</head>
+<body>
+
+    <header>
+
+        <div class="logo-div">
+
+            <a href="/" class="logo">Hiiscipt.com</a>
+
+        </div>
+
+        <br><nav aria-label="Main navigation">
+
+            <ul class="intro-btn-flex2">
+
+                <li class="li2"><a href="/" class="main-btn">Home</a></li>
+                <li class="li2"><a href="/html-all-elements.html" class="main-btn">Elements</a></li>
+                
+                <li class="li2"><a href="/web-tools-and-projects.html" class="main-btn" aria-label="learn audio html element">Tools</a></li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <article>
+
+            <section>
+
+                <h1 class="heading">What is a hyperlink element?</h1>
+
+                <p class="paragraph">A hyperlink is an element that is used to navigate 
+                    users to another web page, html document or another website. This element can 
+                    be a text, button and sometimes an image that you can click to navigate to another 
+                    html document.
+                </p>
+
+            </section>
+
+            <section>
+
+                <h2 class="heading">Which element do we use to create a hyperlink?</h2>
+
+                <p class="paragraph">To create a hyperlink element we use this element &lt;
+                    <span class="code-color">a</span>&gt;&lt;/<span class="code-color">a</span>&gt; 
+                    also known as an anchor element, to direct visitors or users to another webpage. 
+                    We then use this important attribute <span class="code-color2">href</span> = "another-page.html" 
+                    to specify which webpage we want users to be directed to. The text between the <em>quotation marks</em> 
+                    is the link or html document name we provide to direct users to that document when they click on the hyperlink.
+                </p>
+
+                <p class="paragraph">This is how developers connect different webpages, documents or websites 
+                    together so that people can easily navigate to other pages and make the web pages connected to each other.
+                </p>
+
+            </section>
+
+            <section>
+
+                <h2 class="heading">How to create a hyperlink element for your webpage?</h2>
+
+                <p class="paragraph">Let's create a hyperlink to direct users or our website visitors 
+                    to youtube. </p>
+
+                <p class="paragraph-code">Example hyperlink element code</p>
+
+                <div class="code-div">
+
+                    <code id="code">
+
+                        <span>&lt;<span class="code-color">a 
+                            <span class="code-color2">href</span></span> = "https://youtube.com"&gt;</span>
+
+                        <span>My youtube channel</span>
+
+                        <span>&lt;/<span class="code-color">a</span>&gt;</span>
+
+                    </code>
+
+                    <div class="code-div-btn">
+
+                        <button class="copy-btn" onclick="copy()" id="copy">Copy code</button>
+
+                    </div>
+
+                </div>
+
+                <p class="paragraph">When you click on that hyperlink the browser checks the url you provided using the <span class="code-color2">href</span> 
+                    attribute and loads the link between the <em>quotation marks</em> and 
+                    you will be directed to youtube. This link will appear 
+                    in a different color on your browser often with a blue or purple color and underlined with blue or purple, 
+                    so that people can see that this is a clikable element.
+                </p>
+
+                <p class="paragraph-code">Another example hyperlink element code</p> 
+                
+                <p class="paragraph">We can change the specified url between the 
+                    quotation marks to "https://hiiscript.com" to direct people to this website. 
+                    </p>
+
+                <div class="code-div">
+
+                    <code id="codeCss">
+
+                        <span>&lt;<span class="code-color">a 
+                            <span class="code-color2">href</span></span> = "https://hiiscript.com"&gt;</span>
+
+                        <span>Hiiscipt.com</span>
+
+                        <span>&lt;/<span class="code-color">a</span>&gt;</span>
+
+                    </code>
+
+                    <div class="code-div-btn">
+
+                        <button class="copy-btn" onclick="copyCss()" id="copyCss">Copy code</button>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section>
+
+                <h3 class="heading">Why is a hyperlink element important?</h3>
+
+                <p class="paragraph">It is important because it makes the internet connected, interactive and 
+                    used to navigate users to other webpages.It helps visitors on your website move around from one 
+                    page to another saving time without needing to type urls or searching to discover more information 
+                    on any website. Without hyperlinks it will be hard to navigate on a website and it will be time consuming for 
+                    users to find more information because they will have to search again or type urls manually.
+                </p>
+
+            </section>
+
+            <section>
+
+                <h3 class="quiz-Heading">Html quiz</h3>
+
+                <p class="paragraph">What is the correct syntax for a hyperlink element?</p>
+
+                <div class="quizDiv">
+
+                    <p id="answer"></p>
+
+                    <button class="quizBtn" onclick="wrong()" id="wrong">
+                        &lt;<span class="code-color">a</span>&gt;
+                        hyperlink
+                        &lt;<span class="code-color">a</span>&gt;
+                    </button>
+
+                    <button class="quizBtn" onclick="right()" id="right">
+                        &lt;<span class="code-color">a </span> <span class="code-color2"> href</span>= "#"&gt;
+                        hyperlink
+                        &lt;/<span class="code-color">a</span>&gt;
+                    </button>
+
+                    <button class="quizBtn" onclick="wrong2()" id="wrong2">
+                        &lt;/<span class="code-color">a</span>&gt;
+                        hyperlink
+                        &lt;<span class="code-color">a</span>&gt;
+                    </button>
+
+                    <button class="quizBtn" onclick="wrong3()" id="wrong3">
+                        &lt;<span class="code-color">a</span><span class="code-color2"> href</span>= "#"&gt;
+                        hyperlink
+                        &lt;<span class="code-color">a</span>/&gt;
+                    </button>
+
+                </div>
+
+            </section>
+
+        </article>
+
+    </main>
+
+    <footer class="footer">
+
+        <ul class="footer-ul">
+
+            <li class="li2"><a href="/privacy-policy.html" class="footer-btn">Privacy policy</a></li>
+            <li class="li2"><a href="/about-us.html" class="footer-btn">About us</a></li>
+            <li class="li2"><a href="/contact-us.html" class="footer-btn">Contact us</a></li>
+            <li class="li2"><a href="/terms-and-conditions.html" class="footer-btn">Terms and conditions</a></li>
+            <li class="li2"><a href="/support-us.html" class="footer-btn">Support us</a></li>
+            <li class="li2"><a href="/web-tools-and-projects.html" class="footer-btn">Web tools and projects</a></li>
+
+        </ul>
+
+        <p class="footer-par">A website that focuses more only on web development and makes coding fun
+            and easy to learn.
+        </p>
+
+        <p class="copyright-par">Copyright &copy; <span id="year"></span> hiiscript. All Rights Reserved. </p>
+
+    </footer>
+
+
+    
+    <script src="/sheets/script.js"></script>
+</body>
+</html>

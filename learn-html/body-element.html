@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-H8X7LHKKMF"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-H8X7LHKKMF');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="hiiscript">
+    <!--CHANGE THIS METATAGS-->
+    <meta name="keywords" content="body element, create a body element, 
+    explain a body element, create a body element for your html document">
+    <meta name="description" content="It acts as the main container that holds all the content you usually 
+    see on a website or browser like images, buttons, videos, forms, text and links when you visit any website 
+    on the internet.">
+    <title>What is a body element and how to create it in html?</title>
+    <link rel="stylesheet" href="/sheets/style.css">
+    <link rel="canonical" href="https://hiiscript.com/learn-html/body-element.html">
+</head>
+<body>
+
+    <header>
+
+        <div class="logo-div">
+
+            <a href="/" class="logo">Hiiscipt.com</a>
+
+        </div>
+
+        <br><nav aria-label="Main navigation">
+
+            <ul class="intro-btn-flex2">
+
+                <li class="li2"><a href="/" class="main-btn">Home</a></li>
+                <li class="li2"><a href="/html-all-elements.html" class="main-btn">Elements</a></li>
+                <li class="li2"><a href="/web-tools-and-projects.html" class="main-btn" aria-label="learn audio html element">Tools</a></li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <article>
+
+            <section>
+
+                <h1 class="heading">What is a body element?</h1>
+
+                <p class="paragraph">The body element is the most important thing on an html document, because 
+                    it acts as the main container that holds all the content you usually see on a website or browser like images, 
+                    buttons, videos, forms, text and links when you visit any website on the internet. Without it web pages would 
+                    exist only as code and will not be able to display meaningful content to visitors or users.  
+                </p>
+
+            </section>
+
+            <section>
+
+                <h2 class="heading">How to create a body element?</h2>
+
+                <p class="paragraph">We use this element &lt;<span class="code-color">body</span>&gt; 
+                    &lt;/<span class="code-color">body</span>&gt; to create the body for our html document. Paragraphs, images, hyperlinks, 
+                    buttons, videos, forms, and other elements, must be placed between the body element, because this structure helps web 
+                    browsers and search engines understand what your website is about and the layout of your html document. And it 
+                    supports all global attributes such as <span class="code-color2">class</span>, <span class="code-color2">style</span>, 
+                    <span class="code-color2">id</span>, <span class="code-color2">onload</span> and <span class="code-color2">onclick</span>. 
+                    This attributes allows developers to apply javascipt functionality and css styling on a web page.
+                </p>
+
+                <p class="paragraph-code">Example body element code</p>
+                
+                <p class="paragraph">Let's write some paragraph content or text between the body element</p>
+
+                <div class="code-div">
+
+                    <code id="codeCss">
+
+                        <p>&lt;<span class="code-color">body</span>&gt;</p>
+
+                        <p>&lt;<span class="code-color">p</span>&gt;
+                            This is a paragraph element inside a body element. 
+                            &lt;/<span class="code-color">p</span>&gt;</p>
+
+                        <p>&lt;/<span class="code-color">body</span>&gt;</p>
+
+                    </code>
+
+                    <div class="code-div-btn">
+
+                        <button class="copy-btn" onclick="copyCss()" id="copyCss">Copy code</button>
+
+                    </div>
+
+                </div>
+
+                <p class="paragraph-code">Another example body element code</p>
+                
+                <p class="paragraph">Another example, let's write the same paragraph content or text but this time we add 
+                    an h1 heading element with some text.
+                </p>
+
+                <div class="code-div">
+
+                    <code id="code">
+
+                        <p>&lt;<span class="code-color">body</span>&gt;</p>
+
+                        <p>&lt;<span class="code-color">h1</span>&gt;
+                            This is a heading element inside a body element. 
+                            &lt;/<span class="code-color">h1</span>&gt;</p>
+
+                        <p>&lt;<span class="code-color">p</span>&gt;
+                            This is a paragraph element inside a body element. 
+                            &lt;/<span class="code-color">p</span>&gt;</p>
+
+                        <p>&lt;/<span class="code-color">body</span>&gt;</p>
+
+                    </code>
+
+                    <div class="code-div-btn">
+
+                        <button class="copy-btn" onclick="copy()" id="copy">Copy code</button>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section>
+
+                <h3 class="quiz-Heading">Html quiz</h3>
+
+                <p class="paragraph">What is the correct syntax for a body element?</p>
+
+                <div class="quizDiv">
+
+                    <p id="answer"></p>
+
+                    <button class="quizBtn" onclick="wrong()" id="wrong">
+                        &lt;<span class="code-color">body</span>&gt;
+                        &lt;<span class="code-color">body</span>&gt;
+                    </button>
+
+                    <button class="quizBtn" onclick="wrong2()" id="wrong2">
+                        &lt;/<span class="code-color">body</span>&gt;
+                        &lt;<span class="code-color">body</span>&gt;
+                    </button>
+
+                    <button class="quizBtn" onclick="wrong3()" id="wrong3">
+                        &lt;<span class="code-color">body</span>&gt;
+                        &lt;<span class="code-color">body</span>/&gt;
+                    </button>
+
+                    <button class="quizBtn" onclick="right()" id="right">
+                        &lt;<span class="code-color">body</span>&gt;
+                        &lt;/<span class="code-color">body</span>&gt;
+                    </button>
+
+                </div>
+
+            </section>
+
+        </article>
+
+    </main>
+
+    <footer class="footer">
+
+        <ul class="footer-ul">
+
+            <li class="li2"><a href="/privacy-policy.html" class="footer-btn">Privacy policy</a></li>
+            <li class="li2"><a href="/about-us.html" class="footer-btn">About us</a></li>
+            <li class="li2"><a href="/contact-us.html" class="footer-btn">Contact us</a></li>
+            <li class="li2"><a href="/terms-and-conditions.html" class="footer-btn">Terms and conditions</a></li>
+            <li class="li2"><a href="/support-us.html" class="footer-btn">Support us</a></li>
+            <li class="li2"><a href="/web-tools-and-projects.html" class="footer-btn">Web tools and projects</a></li>
+
+        </ul>
+
+        <p class="footer-par">A website that focuses more only on web development and makes coding fun
+            and easy to learn.
+        </p>
+
+        <p class="copyright-par">Copyright &copy; <span id="year"></span> hiiscript. All Rights Reserved. </p>
+
+    </footer>
+
+
+    
+    <script src="/sheets/script.js"></script>
+</body>
+</html>

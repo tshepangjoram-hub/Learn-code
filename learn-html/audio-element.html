@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-H8X7LHKKMF"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-H8X7LHKKMF');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="hiiscript">
+    <!--CHANGE THIS METATAGS-->
+    <meta name="keywords" content="audio element, create an audio element, html audio element, 
+    explain audio element">
+    <meta name="description" content="An audio element is the most easiest and reliable way to embed 
+    audio files, music, podcasts, sound and sound effects directly into your webpage.">
+    <title>How to embed sound or audio files on a webpage?</title>
+    <link rel="stylesheet" href="/sheets/style.css">
+    <link rel="canonical" href="https://hiiscript.com/learn-html/audio-element.html">
+</head>
+<body>
+
+    <header>
+
+        <div class="logo-div">
+
+            <a href="/" class="logo">Hiiscipt.com</a>
+
+        </div>
+
+        <br><nav aria-label="Main navigation">
+
+            <ul class="intro-btn-flex2">
+
+                <li class="li2"><a href="/" class="main-btn">Home</a></li>
+                <li class="li2"><a href="/html-all-elements.html" class="main-btn">Elements</a></li>
+                <li class="li2"><a href="/web-tools-and-projects.html" class="main-btn" aria-label="learn audio html element">Tools</a></li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <article>
+
+            <section>
+
+                <h1 class="heading">What is an audio element?</h1>
+
+                <p class="paragraph">An audio element is the most easiest and reliable way to embed 
+                    audio files, music, podcasts, sound and sound effects directly into your webpage. 
+                    Allowing users on your site to play audio content easily without needing extra code, 
+                    external plugins or software.
+                </p>
+                
+            </section>
+
+            <section>
+
+                <h2 class="heading">Which element do we use to embed sound on a webpage?</h2>
+
+                <p class="paragraph">We use this element &lt;<span class="code-color">audio</span>&gt; 
+                    &lt;/<span class="code-color">audio</span>&gt; to embed sound or audio files on a webpage. 
+                    But when using this element you must specify the source of the sound or audio file using the 
+                    <span class="code-color2">src</span> = "your-audio-file.mp3" attribute, and the name between the 
+                    quotation marks is the name of your audio file you want to 
+                    play on your webpage. We then use the <span class="code-color2">controls</span> 
+                    attribute that tells the browser to display controls that control the play button, volume button, 
+                    pause button and progress bar for the sound or audio file. Without the control attribute we will not be able 
+                    to control the audio file to play or pause, we will have to use javascipt to control it.  
+                </p>
+
+                <br><p class="paragraph">This audio element is also used in Html5 and most popular web browsers support it, making 
+                    making it the easiest way to embed audio files into a webpage.
+                </p>
+
+            </section>
+
+            <section>
+
+                <br><p class="paragraph-code">Example audio element</p>
+
+                <div class="code-div">
+
+                    <code id="code">
+
+                        <span>&lt;<span class="code-color">audio</span>
+
+                        <span class="code-color2">src</span> = "audio.mp3" 
+
+                        <span class="code-color2">controls</span>&gt;</span><span>&lt;/<span class="code-color">audio</span>&gt;</span>
+
+                    </code>
+
+                    <div class="code-div-btn">
+
+                        <button class="copy-btn" onclick="copy()" id="copy">Copy code</button>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section>
+
+                <h3 class="heading">Why is an audio element important?</h3>
+
+                <p class="paragraph">It is important because it allows developers to embed audio files on a webpage, 
+                    without needing external plugins or tools which developers in the past had to rely to play audio files 
+                    on a site. It also helps improve user engagement and experience, for example educational websites can include 
+                    voice explanation audio files so that leaners can understand better if they have difficulties reading or understanding 
+                    the text. Music streaming platforms like spotify also rely on this element to embed music files on their site. 
+                </p>
+
+            </section>
+
+            <section>
+
+                <h3 class="quiz-Heading">Html quiz</h3>
+
+                <p class="paragraph">What is the correct syntax for an html h1 element?</p>
+
+                <div class="quizDiv">
+
+                    <p id="answer"></p>
+
+                    <button class="quizBtn" onclick="wrong()" id="wrong">
+                        &lt;<span class="code-color">audio</span>&gt;
+                        &lt;<span class="code-color">audio</span>&gt;
+                    </button>
+
+                    <button class="quizBtn" onclick="wrong2()" id="wrong2">
+                        &lt;/<span class="code-color">audio</span>&gt;
+                        &lt;<span class="code-color">audio</span>&gt;
+                    </button>
+
+                    <button class="quizBtn" onclick="right()" id="right">
+                        &lt;<span class="code-color">audio</span>&gt;
+                        &lt;/<span class="code-color">audio</span>&gt;
+                    </button>
+
+                    <button class="quizBtn" onclick="wrong3()" id="wrong3">
+                        &lt;<span class="code-color">audio</span>&gt;
+                        &lt;<span class="code-color">audio</span>/&gt;
+                    </button>
+
+                </div>
+
+            </section>
+
+        </article>
+
+    </main>
+
+    <footer class="footer">
+
+        <ul class="footer-ul">
+
+            <li class="li2"><a href="/privacy-policy.html" class="footer-btn">Privacy policy</a></li>
+            <li class="li2"><a href="/about-us.html" class="footer-btn">About us</a></li>
+            <li class="li2"><a href="/contact-us.html" class="footer-btn">Contact us</a></li>
+            <li class="li2"><a href="/terms-and-conditions.html" class="footer-btn">Terms and conditions</a></li>
+            <li class="li2"><a href="/support-us.html" class="footer-btn">Support us</a></li>
+            <li class="li2"><a href="/web-tools-and-projects.html" class="footer-btn">Web tools and projects</a></li>
+
+        </ul>
+
+        <p class="footer-par">A website that focuses more only on web development and makes coding fun
+            and easy to learn.
+        </p>
+
+        <p class="copyright-par">Copyright &copy; <span id="year"></span> hiiscript. All Rights Reserved. </p>
+
+    </footer>
+
+
+    
+    <script src="/sheets/script.js"></script>
+</body>
+</html>
