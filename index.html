@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-H8X7LHKKMF"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-H8X7LHKKMF');
+    </script>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="hiiscript">
+    <!--CHANGE THIS METATAGS-->
+    <meta name="keywords" content="learn html css and javascript, 
+    learn html css and javascript for free, html, css, javascript">
+    <meta name="description" content="We teach you everything you need to know 
+    about how to start creating your first website using HTML, Css and Javascript">
+    <title>Learn how to create your own website using Html, Css and javascipt</title>
+    <link rel="stylesheet" href="/sheets/style.css">
+    <link rel="canonical" href="https://hiiscript.com/">
+</head>
+<body>
+
+    <header class="logo-div">
+
+        <a href="/" class="logo">Hiiscipt.com</a>
+
+    </header>
+
+    <main>
+
+        <article class="main-body">
+
+            <div class="div-container">
+
+                <section class="intro-div">
+
+                    <h1 class="intro">Start your HTML, Css and Javascript learning 
+                        journey with us for free!
+                    </h1>
+
+                    <p class="intro-paragraph">We teach you everything about web development with examples, projects and simple quizes, to help you
+                        start creating your first website using HTML, Css and Javascript.
+                    </p>
+
+                    <ul class="intro-btn-flex">
+                        
+                        <li class="li2"><a href="/html-all-elements.html" class="intro-btn">Html</a></li>
+                        <li class="li2"><a href="/learn-css.html" class="intro-btn">Css</a></li>
+                        <li class="li2"><a href="/learn-javascript.html" class="intro-btn">Javascript</a></li>
+
+                    </ul>
+
+                    
+            </div>        
+
+                </section>
+
+                <section>
+
+                    <h1 class="heading">What is Html and explain it?</h1>
+
+                    <p class="paragraph">HTML is a popular computer language that is mostly used to
+                        structure webpages on the browser or the internet. This markup language is like the skeleton 
+                        or foundation of every website you visit or see on the internet. 
+                    </p>
+
+                    <h2 class="heading">Html stands for?</h2>
+
+                    <p class="paragraph">It stands for hypertext markup language.</p>
+
+                </section>
+
+                <section>
+
+                    <br><p class="paragraph-code">Example Hml code</p>
+
+                    <div class="code-div">
+
+                        <code id="code">
+
+                            <span>&lt;<span class="code-color">h1</span>&gt;</span>
+
+                            <span>This is an html h1 heading element</span>
+
+                            <span>&lt;/<span class="code-color">h1</span>&gt;</span>
+
+                        </code>
+
+                        <div class="code-div-btn">
+
+                            <button class="copy-btn" onclick="copy()" id="copy">Copy code</button>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+                <section>
+
+                    <h2 class="heading">What is Css?</h2>
+
+                    <p class="paragraph">Css is a stylesheet language used to design a website to look more professional, beautiful 
+                        and be responsive on mobile devices, by controlling colors, fonts, animations, 
+                        margins, etc. 
+
+                    </p>
+
+                    <h2 class="heading">Css stands for?</h2>
+
+                    <p class="paragraph">It stands for cascading style sheets.</p>
+
+                </section>
+
+                <section>
+
+                    <br><p class="paragraph-code">Example Css code</p>
+
+                    <p class="paragraph">Let's style the h1 element with css and make it blue.</p>
+
+                    <div class="code-div">
+
+                        <code id="codeCss">
+
+                            <span class="code-color">h1</span><span>{
+
+                                <span class="code-color-css">color</span>: 
+
+                                <span class="code-color-css2">blue</span>;
+                                
+                            }</span>
+
+                        </code>
+
+                        <div class="code-div-btn">
+
+                            <button class="copy-btn" onclick="copyCss()" id="copyCss">Copy code</button>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+                <section>   
+
+                    <h2 class="heading">What is Javascript and explain it?</h2>
+
+                    <p class="paragraph">Javascript makes the website come to life by making 
+                        it interactive, dynamic and by adding functionality. It controls the behavior 
+                        of the website by handling mouse clicks when users click on the page, updating data 
+                        without reloading the page, etc.
+                    </p>
+
+                </section>
+
+                <section>
+
+                    <br><p class="paragraph-code">Example Javascript code</p>
+
+                    <p class="paragraph">Logging "Javascipt" to the console.</p>
+
+                    <div class="code-div">
+
+                        <code id="codeJav">
+
+                        <span>console.</span><span class="code-color-jav">log</span>(<span
+                        class="code-color-jav2">"Javascript"</span>);</span>
+
+                        </code>
+
+                        <div class="code-div-btn">
+
+                            <button class="copy-btn" onclick="copyJav()" id="copyJav">Copy code</button>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+                <section>
+
+                    <h3 class="quiz-Heading">Html quiz</h3>
+
+                    <p class="paragraph">What is the correct syntax for an html h1 element?</p>
+
+                    <div class="quizDiv">
+
+                        <p id="answer"></p>
+
+                        <button class="quizBtn" onclick="wrong()" id="wrong">
+                            &lt;<span class="code-color">h1</span>&gt;
+                            &lt;<span class="code-color">h1</span>&gt;
+                        </button>
+
+                        <button class="quizBtn" onclick="wrong2()" id="wrong2">
+                            &lt;/<span class="code-color">h1</span>&gt;
+                            &lt;<span class="code-color">h1</span>&gt;
+                        </button>
+
+                        <button class="quizBtn" onclick="right()" id="right">
+                            &lt;<span class="code-color">h1</span>&gt;
+                            &lt;/<span class="code-color">h1</span>&gt;
+                        </button>
+
+                        <button class="quizBtn" onclick="wrong3()" id="wrong3">
+                            &lt;<span class="code-color">h1</span>&gt;
+                            &lt;<span class="code-color">h1</span>/&gt;
+                        </button>
+
+                    </div>
+
+                </section>
+
+                <section>
+
+                    <p class="paragraph">If you want to create websites or your own website, you
+                        can use this 3 mostly used and powerful languages called <span class="highlight">Html, Css and Javascript</span> 
+                        to create them. 
+                    </p>
+
+                    <br><p class="paragraph">Let's compare this 3 powerful languages as a living human body. </p>
+
+                    <ul>
+
+                        <li class="li3"><p>Html: is the skeleton for your web page because it holds everything 
+                            together and everything you see on a website. With html tags you can layout the 
+                            paragraph content, images, headings, buttons, and many more elements or content on 
+                            your site. Start learning all this different elements <a href="/html-all-elements.html" class="link"
+                             aria-label="Learn all html elements">here</a>.
+                        </p></li>
+
+                        <li class="li3"><p>Css: is the color skin or clothing on a human body. It makes your website 
+                            more colorful, it adds texture, style and makes the webpage look the way want it to be. 
+                            Without css our website will look ugly to look at and boring to use. We use it to control 
+                            the font size, margins, font family, animations, colors, etc on our site. We also use it 
+                            to control the responsive design so that our site can be adaptable to all different screens or devices.
+                        </p></li>
+
+                        <li class="li3"><p>Javascript: It is the brain that controls a human body and it makes a webpage react when 
+                            we click a button or controls the behavior. When you fill up a form on a site javascipt processes that form, 
+                            it updates your webpage and controls everything in the background or behind the scenes. This makes the site be 
+                            interactive and makes it feel alive. 
+                        </p></li>
+
+                    </ul>
+                    
+                </section>
+
+        </article>
+
+    </main>
+
+    <footer class="footer">
+
+        <ul class="footer-ul">
+
+            <li class="li2"><a href="/privacy-policy.html" class="footer-btn">Privacy policy</a></li>
+            <li class="li2"><a href="/about-us.html" class="footer-btn">About us</a></li>
+            <li class="li2"><a href="/contact-us.html" class="footer-btn">Contact us</a></li>
+            <li class="li2"><a href="/terms-and-conditions.html" class="footer-btn">Terms and conditions</a></li>
+            <li class="li2"><a href="/support-us.html" class="footer-btn">Support us</a></li>
+            <li class="li2"><a href="/web-tools-and-projects.html" class="footer-btn">Web tools and projects</a></li>
+
+        </ul>
+
+        <p class="footer-par">A website that focuses more only on web development and makes coding fun
+            and easy to learn.
+        </p>
+
+        <p class="copyright-par">Copyright &copy; <span id="year"></span> hiiscript. All Rights Reserved. </p>
+
+    </footer>
+
+
+    
+    <script src="/sheets/script.js"></script>
+</body>
+</html>
